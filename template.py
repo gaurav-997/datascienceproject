@@ -1,3 +1,4 @@
+# this is for generic project structure ( here we will make all required files and directories )
 import os
 from pathlib import Path
 import logging
@@ -7,7 +8,7 @@ list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",  # here we define the constructor bcz with this we can import this project anywhere 
     f"src/{project_name}/components/__init__.py",   # this will be used for different stages of pipeline
-    f"src/{project_name}/utils/__init__.py",  # this is used for any common functiontanility
+    f"src/{project_name}/utils/__init__.py",  # this is used for any common functiontanility ( like logging )
     f"src/{project_name}/components/common.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/components/configuration.py",

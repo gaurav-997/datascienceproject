@@ -9,14 +9,13 @@ list_of_files = [
     f"src/{project_name}/__init__.py",  # here we define the constructor bcz with this we can import this project anywhere 
     f"src/{project_name}/components/__init__.py",   # this will be used for different stages of pipeline
     f"src/{project_name}/utils/__init__.py",  # this is used for any common functiontanility ( like logging )
-    f"src/{project_name}/components/common.py",
+    f"src/{project_name}/utils/common.py",
     f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/components/configuration.py",
+    f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
-    f"src/{project_name}/components/config_entity.py",
+    f"src/{project_name}/entity/config_entity.py",
     f"src/{project_name}/constants/__init__.py",
-    f"src/{project_name}/components/__init__.py",
     "config/config.yaml",
     "params.yaml",
     "schema.yaml",

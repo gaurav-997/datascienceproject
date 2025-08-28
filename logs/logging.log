@@ -1,1 +1,282 @@
 [2025-08-20 23:24:05,277 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:08:26,847 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:08:26,847 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:08:26,872 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:08:26,872 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:08:26,880 - ERROR - main - yaml file is empty]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 23, in read_yaml
+    return ConfigBox(content) # here we load yaml file as dict if some error will be their it will be handled by configBox ( its for our easyness )
+           ^^^^^^^^^^^^^^^^^^
+  File "box\\box.py", line 295, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 11, in __init__
+    self.params=read_yaml(params_filepath)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\ven\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 25, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-28 19:20:13,289 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:20:13,289 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:20:13,310 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:20:13,310 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:20:13,310 - ERROR - main - yaml file is empty]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 23, in read_yaml
+    return ConfigBox(content) # here we load yaml file as dict if some error will be their it will be handled by configBox ( its for our easyness )
+           ^^^^^^^^^^^^^^^^^^
+  File "box\\box.py", line 295, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 11, in __init__
+    self.params=read_yaml(params_filepath)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\ven\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 25, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-28 19:20:20,229 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:20:20,229 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:20:20,231 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:20:20,231 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:20:20,231 - ERROR - main - yaml file is empty]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 23, in read_yaml
+    return ConfigBox(content) # here we load yaml file as dict if some error will be their it will be handled by configBox ( its for our easyness )
+           ^^^^^^^^^^^^^^^^^^
+  File "box\\box.py", line 295, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 11, in __init__
+    self.params=read_yaml(params_filepath)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\ven\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 25, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-28 19:21:00,304 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:21:00,304 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:21:00,304 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:21:00,330 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:21:00,330 - ERROR - main - yaml file is empty]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 23, in read_yaml
+    return ConfigBox(content) # here we load yaml file as dict if some error will be their it will be handled by configBox ( its for our easyness )
+           ^^^^^^^^^^^^^^^^^^
+  File "box\\box.py", line 283, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 11, in __init__
+    self.params=read_yaml(params_filepath)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\ven\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 25, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-28 19:21:11,013 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:21:11,013 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:21:11,013 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:21:11,013 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:21:11,013 - ERROR - main - yaml file is empty]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 23, in read_yaml
+    return ConfigBox(content) # here we load yaml file as dict if some error will be their it will be handled by configBox ( its for our easyness )
+           ^^^^^^^^^^^^^^^^^^
+  File "box\\box.py", line 283, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 11, in __init__
+    self.params=read_yaml(params_filepath)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\ven\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 25, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-28 19:27:22,524 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:27:22,524 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:27:22,529 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:27:22,529 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:27:22,529 - ERROR - main - yaml file is empty]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 23, in read_yaml
+    return ConfigBox(content) # here we load yaml file as dict if some error will be their it will be handled by configBox ( its for our easyness )
+           ^^^^^^^^^^^^^^^^^^
+  File "box\\box.py", line 283, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 11, in __init__
+    self.params=read_yaml(params_filepath)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\ven\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 25, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-28 19:28:41,606 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:28:41,606 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:28:41,606 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:28:41,634 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:28:41,636 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:28:41,636 - ERROR - main - yaml file is empty]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 23, in read_yaml
+    return ConfigBox(content) # here we load yaml file as dict if some error will be their it will be handled by configBox ( its for our easyness )
+           ^^^^^^^^^^^^^^^^^^
+  File "box\\box.py", line 283, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 12, in __init__
+    self.schema=read_yaml(schema_filepath)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\ven\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\utils\common.py", line 25, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2025-08-28 19:29:49,051 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 19:29:49,051 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 19:29:49,051 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:29:49,051 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:29:49,091 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 19:29:49,092 - INFO - common - created dir at path artifacts]
+[2025-08-28 19:29:49,092 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-28 19:29:50,522 - INFO - data_ingestion - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D8BA:4A8F4:16350:2D9D4:68B060D6
+Accept-Ranges: bytes
+Date: Thu, 28 Aug 2025 13:59:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1756389590.468235,VS0,VE239
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6f5ce0274eb76bc4be9b06ded105e2d976060bea
+Expires: Thu, 28 Aug 2025 14:04:50 GMT
+Source-Age: 0
+
+]
+[2025-08-28 19:29:50,545 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-28 23:14:09,107 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 23:14:09,108 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 23:14:09,124 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:14:09,139 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:14:09,155 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:14:09,156 - INFO - common - created dir at path artifacts]
+[2025-08-28 23:14:09,156 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-28 23:14:09,157 - INFO - data_ingestion - File already exists]
+[2025-08-28 23:14:09,184 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-28 23:14:09,184 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-28 23:14:09,185 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:14:09,187 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:14:09,187 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:14:09,187 - INFO - common - created dir at path artifacts]
+[2025-08-28 23:14:09,187 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-28 23:14:09,221 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-28 23:15:32,295 - INFO - main - welcome to our cutome logging ]
+[2025-08-28 23:15:32,295 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-28 23:15:32,308 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:15:32,329 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:15:32,344 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:15:32,345 - INFO - common - created dir at path artifacts]
+[2025-08-28 23:15:32,346 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-28 23:15:32,346 - INFO - data_ingestion - File already exists]
+[2025-08-28 23:15:32,396 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-28 23:15:32,399 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-28 23:15:32,409 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:15:32,409 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:15:32,409 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-28 23:15:32,409 - INFO - common - created dir at path artifacts]
+[2025-08-28 23:15:32,409 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-28 23:15:32,447 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]

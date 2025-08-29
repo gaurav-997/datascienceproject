@@ -280,3 +280,32 @@ x==========x]
 [2025-08-28 23:15:32,447 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-08-29 18:29:54,795 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 18:29:54,796 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 18:29:54,824 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,838 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,852 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,853 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:29:54,854 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 18:29:54,854 - INFO - data_ingestion - File already exists]
+[2025-08-29 18:29:54,876 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 18:29:54,876 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 18:29:54,876 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,882 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,884 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,885 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:29:54,885 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 18:29:54,915 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 18:29:54,916 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 18:29:54,919 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,920 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,922 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:29:54,923 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:29:54,925 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 18:29:54,925 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]

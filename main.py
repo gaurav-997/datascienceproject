@@ -2,6 +2,7 @@ from src.datascience.utils import logger
 from src.datascience.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
 from src.datascience.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
 from src.datascience.pipeline.data_transforamtion_pipeline import DataTransformationTrainingPipeline
+from src.datascience.pipeline.data_training_pipeline import DataTrainingPipeline
 
 logger.info("welcome to our cutome logging ")
 
@@ -34,4 +35,15 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+
+STAGE_NAME = "Data Training stage"
+try:
+        logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+        obj = DataTrainingPipeline()
+        obj.initiate_data_training()
+        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
 

@@ -309,3 +309,292 @@ x==========x]
 [2025-08-29 18:29:54,925 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x]
+[2025-08-29 18:46:46,783 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 18:46:46,785 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 18:46:46,798 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,811 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,824 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,825 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:46:46,826 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 18:46:46,827 - INFO - data_ingestion - File already exists]
+[2025-08-29 18:46:46,845 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 18:46:46,845 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 18:46:46,850 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,850 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,851 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,852 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:46:46,852 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 18:46:46,880 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 18:46:46,880 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 18:46:46,895 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,895 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,897 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:46:46,898 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:46:46,899 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 18:46:46,899 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 18:55:32,425 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 18:55:32,425 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 18:55:32,427 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,427 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,429 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,430 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:55:32,430 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 18:55:32,431 - INFO - data_ingestion - File already exists]
+[2025-08-29 18:55:32,435 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 18:55:32,435 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 18:55:32,436 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,438 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,439 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,440 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:55:32,440 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 18:55:32,465 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 18:55:32,465 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 18:55:32,466 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,466 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,471 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 18:55:32,472 - INFO - common - created dir at path artifacts]
+[2025-08-29 18:55:32,472 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 18:55:32,505 - INFO - data_transformation - splited data into training and test set ]
+[2025-08-29 18:55:32,506 - INFO - data_transformation - (1199, 12)]
+[2025-08-29 18:55:32,506 - INFO - data_transformation - (400, 12)]
+[2025-08-29 18:55:32,507 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 19:59:59,192 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 19:59:59,193 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 19:59:59,215 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,233 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,248 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,249 - INFO - common - created dir at path artifacts]
+[2025-08-29 19:59:59,250 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 19:59:59,250 - INFO - data_ingestion - File already exists]
+[2025-08-29 19:59:59,269 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 19:59:59,269 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 19:59:59,277 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,278 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,280 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,281 - INFO - common - created dir at path artifacts]
+[2025-08-29 19:59:59,282 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 19:59:59,315 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 19:59:59,316 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 19:59:59,328 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,330 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,331 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,332 - INFO - common - created dir at path artifacts]
+[2025-08-29 19:59:59,333 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 19:59:59,355 - INFO - data_transformation - splited data into training and test set ]
+[2025-08-29 19:59:59,355 - INFO - data_transformation - (1199, 12)]
+[2025-08-29 19:59:59,355 - INFO - data_transformation - (400, 12)]
+[2025-08-29 19:59:59,355 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 19:59:59,355 - INFO - main - >>>>>> stage Data Training stage started <<<<<<]
+[2025-08-29 19:59:59,360 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,361 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,363 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 19:59:59,364 - INFO - common - created dir at path artifacts]
+[2025-08-29 19:59:59,365 - INFO - common - created dir at path artifacts/data_training]
+[2025-08-29 19:59:59,365 - ERROR - main - 'str' object has no attribute 'target_column']
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 43, in <module>
+    obj.initiate_data_training()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_training_pipeline.py", line 14, in initiate_data_training
+    data_training_config = config.traing_data_training_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 70, in traing_data_training_config
+    target_column= schema.target_column
+                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'target_column'
+[2025-08-29 20:02:37,453 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 20:02:37,453 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 20:02:37,469 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,475 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,492 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,492 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:02:37,504 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 20:02:37,505 - INFO - data_ingestion - File already exists]
+[2025-08-29 20:02:37,529 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 20:02:37,529 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 20:02:37,529 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,529 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,537 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,537 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:02:37,538 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 20:02:37,563 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 20:02:37,564 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 20:02:37,577 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,578 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,579 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,580 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:02:37,581 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 20:02:37,597 - INFO - data_transformation - splited data into training and test set ]
+[2025-08-29 20:02:37,597 - INFO - data_transformation - (1199, 12)]
+[2025-08-29 20:02:37,597 - INFO - data_transformation - (400, 12)]
+[2025-08-29 20:02:37,597 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 20:02:37,599 - INFO - main - >>>>>> stage Data Training stage started <<<<<<]
+[2025-08-29 20:02:37,600 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,601 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,602 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:02:37,603 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:02:37,604 - INFO - common - created dir at path artifacts/data_training]
+[2025-08-29 20:02:37,604 - ERROR - main - 'str' object has no attribute 'target_column']
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 43, in <module>
+    obj.initiate_data_training()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_training_pipeline.py", line 14, in initiate_data_training
+    data_training_config = config.traing_data_training_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\config\configuration.py", line 70, in traing_data_training_config
+    target_column= schema.target_column
+                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'target_column'
+[2025-08-29 20:05:47,861 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 20:05:47,861 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 20:05:47,861 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,861 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,882 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,882 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:05:47,882 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 20:05:47,882 - INFO - data_ingestion - File already exists]
+[2025-08-29 20:05:47,888 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 20:05:47,889 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 20:05:47,890 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,891 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,893 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,894 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:05:47,894 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 20:05:47,919 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 20:05:47,919 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 20:05:47,922 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,923 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,925 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,925 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:05:47,926 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 20:05:47,944 - INFO - data_transformation - splited data into training and test set ]
+[2025-08-29 20:05:47,944 - INFO - data_transformation - (1199, 12)]
+[2025-08-29 20:05:47,945 - INFO - data_transformation - (400, 12)]
+[2025-08-29 20:05:47,945 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 20:05:47,945 - INFO - main - >>>>>> stage Data Training stage started <<<<<<]
+[2025-08-29 20:05:47,948 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,949 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,949 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 20:05:47,951 - INFO - common - created dir at path artifacts]
+[2025-08-29 20:05:47,951 - INFO - common - created dir at path artifacts/data_training]
+[2025-08-29 20:05:47,981 - ERROR - main - 'DataFrame' object is not callable]
+Traceback (most recent call last):
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\main.py", line 43, in <module>
+    obj.initiate_data_training()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\pipeline\data_training_pipeline.py", line 16, in initiate_data_training
+    data_training.train()
+  File "C:\MLOPS\mlflowstater\10-end-to-end-datascience-project\src\datascience\components\data_training.py", line 18, in train
+    train_y = train_data([self.config.target_column])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'DataFrame' object is not callable
+[2025-08-29 23:23:59,672 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 23:23:59,672 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 23:23:59,688 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,718 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,742 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,744 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:23:59,744 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 23:23:59,744 - INFO - data_ingestion - File already exists]
+[2025-08-29 23:23:59,779 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 23:23:59,779 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 23:23:59,786 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,786 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,790 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,792 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:23:59,792 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 23:23:59,830 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 23:23:59,830 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 23:23:59,838 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,852 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,852 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,852 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:23:59,852 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 23:23:59,876 - INFO - data_transformation - splited data into training and test set ]
+[2025-08-29 23:23:59,876 - INFO - data_transformation - (1199, 12)]
+[2025-08-29 23:23:59,876 - INFO - data_transformation - (400, 12)]
+[2025-08-29 23:23:59,876 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 23:23:59,876 - INFO - main - >>>>>> stage Data Training stage started <<<<<<]
+[2025-08-29 23:23:59,885 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,885 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,885 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:23:59,885 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:23:59,885 - INFO - common - created dir at path artifacts/data_training]
+[2025-08-29 23:23:59,928 - INFO - main - >>>>>> stage Data Training stage completed <<<<<<
+
+x==========x]
+[2025-08-29 23:48:37,459 - INFO - main - welcome to our cutome logging ]
+[2025-08-29 23:48:37,459 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-29 23:48:37,474 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,496 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,517 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,519 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:48:37,520 - INFO - common - created dir at path artifacts/data_ingestion]
+[2025-08-29 23:48:37,520 - INFO - data_ingestion - File already exists]
+[2025-08-29 23:48:37,549 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-29 23:48:37,549 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-29 23:48:37,549 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,549 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,558 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,558 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:48:37,558 - INFO - common - created dir at path artifacts/data_validation]
+[2025-08-29 23:48:37,595 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 23:48:37,596 - INFO - main - >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-08-29 23:48:37,613 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,613 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,622 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,622 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:48:37,622 - INFO - common - created dir at path artifacts/data_transformation]
+[2025-08-29 23:48:37,638 - INFO - data_transformation - splited data into training and test set ]
+[2025-08-29 23:48:37,638 - INFO - data_transformation - (1199, 12)]
+[2025-08-29 23:48:37,638 - INFO - data_transformation - (400, 12)]
+[2025-08-29 23:48:37,642 - INFO - main - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-08-29 23:48:37,642 - INFO - main - >>>>>> stage Data Training stage started <<<<<<]
+[2025-08-29 23:48:37,643 - INFO - common - <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,643 - INFO - common - <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,646 - INFO - common - <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> content loaded successfully]
+[2025-08-29 23:48:37,648 - INFO - common - created dir at path artifacts]
+[2025-08-29 23:48:37,649 - INFO - common - created dir at path artifacts/data_training]
+[2025-08-29 23:48:37,682 - INFO - main - >>>>>> stage Data Training stage completed <<<<<<
+
+x==========x]

@@ -5,6 +5,7 @@ import joblib
 import pandas as pd
 from src.datascience.entity.config_entity import DataTrainingConfig
 
+# read the data and train it using trian test split 
 class DataTraining:
     def __init__(self,config:DataTrainingConfig):  # we are getting this from configuration
         self.config = config
